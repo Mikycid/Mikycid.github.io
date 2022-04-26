@@ -1,0 +1,73 @@
+html{
+    font-size: 100%;
+}
+body{
+    background: #DDD;
+}
+.nav{
+    background-color: #222;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.list-none{
+    list-style:none;
+}
+.text-center{
+    text-align: center !important;
+}
+.logolist{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+    animation-delay:0.3s; -moz-animation-delay:0.3s; -webkit-animation-delay:0.3s;
+}
+.logolist li{
+    height: 100px;
+    max-width: 80%;
+    margin-bottom: 1em;
+    padding: 5px;
+}
+.logolist li:hover {
+    opacity: 0.8;
+}
+.logolist li img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    border-top: 5px solid black;
+    background-color: #222;
+    color:white;
+    padding: 10px;
+}
+.btn-text{
+    padding:0;
+    margin:0;
+    vertical-align: baseline !important;
+}
+.page{
+    background-color: #EEE;
+    padding:15px;
+    margin-bottom: 0;
+}
+.underline{
+    text-decoration: underline;
+}
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    color: #0056b3;
+}
+@media screen and (max-width: 800px){
+    .page{
+        padding: 10px;
+    }
+}
+.carousel img{
+    height:220px;
+}
