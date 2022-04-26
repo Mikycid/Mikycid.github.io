@@ -5,14 +5,14 @@ class Competences extends Component {
         return (
             <div className="jumbotron page">
                 {this.props.lang === "fr" ? <div>
-                    <h2>Mes compétences : </h2>
+                    <h2 class="display-4">Mes compétences : </h2>
                     <p>
                         Je sais développer des applications, des sites webs dynamiques et responsifs avec un design moderne.<br/>
                         J'ai une bonne expérience avec les langages python (+ Django), HTML5, CSS3(+Bootstrap), javascript (+React), PHP, SQL.<br/>
                         Je sais créer et manipuler des bases de données SQL, CSV/XLSX.<br/>
                         Je met en oeuvre mes connaissances dans vos projets afin d'obtenir des résultats professionels.<br/>
                     </p> </div> : <div>
-                        <h2>My skills : </h2>
+                        <h2 class="display-4">My skills : </h2>
                         <p>
                             I know how to develop applications, dynamic and responsive websites with a modern design. <br/>
                             I have a good experience with the languages ​​python (+ Django), HTML5, CSS3, javascript (+React), PHP, SQL. <br/>
@@ -24,7 +24,7 @@ class Competences extends Component {
                 {this.props.lang === "fr" ? 
                 <h5>Voici la liste de mes connaissances : </h5>: <h5>Here is the list of my acquaintances : </h5>}<br/>
                 <div className="row">
-                    <div className="col-sm">
+                    <div className="col col-sm-12 col-lg-4">
                         <ul className="list-none">
                             <li style={{fontSize: 22}}>
                                 {this.props.lang === "fr" ?
@@ -37,9 +37,9 @@ class Competences extends Component {
                             <li>SQL</li>
                         </ul>
                     </div>
-                    <div className="col-sm">
+                    <div className="col col-sm-12 col-lg-4">
                         <ul className="list-none">
-                            <li style={{fontSize: 22}}>
+                            <li style={{fontSize: 22, fontWeight:"bold"}}>
                                 {this.props.lang === "fr" ?
                                 <strong>Frameworks / Systèmes / Librairies</strong> : <strong>Frameworks / Systems / Libraries</strong>
                                 }
@@ -58,7 +58,7 @@ class Competences extends Component {
                         </ul>
                     </div>
                     {this.props.lang === "fr" ? 
-                    <div className="col-sm">
+                    <div className="col col-sm-12 col-lg-4">
                         <ul className="list-none">
                             <li style={{fontSize: 22}}><strong>Compétences</strong></li>
                             <li>Création de sites web</li>
@@ -69,7 +69,7 @@ class Competences extends Component {
                             <li>Web scraping</li>
                             <li>Machine learning</li>
                         </ul>
-                    </div> : <div className="col-sm">
+                    </div> : <div className="col col-sm-12 col-lg-4">
                         <ul className="list-none">
                             <li style={{fontSize: 22}}><strong>Skills</strong></li>
                             <li> Website creation </li>

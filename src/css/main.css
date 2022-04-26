@@ -4,13 +4,6 @@ html{
 body{
     background: #DDD;
 }
-.nav{
-    background-color: #222;
-    color: white;
-}
-.nav-link{
-    color: white;
-}
 .list-none{
     list-style:none;
 }
@@ -25,6 +18,13 @@ body{
     align-items: center;
     animation-delay:0.3s; -moz-animation-delay:0.3s; -webkit-animation-delay:0.3s;
 }
+.text-white a, .text-white span{
+    color: #ccc !important;
+    cursor : pointer;
+}
+.text-white a:hover, .text-white span:hover{
+    color: #0056b3 !important;
+}
 .logolist li{
     height: 100px;
     max-width: 80%;
@@ -38,9 +38,11 @@ body{
     width: 100%;
     height: 100%;
 }
+.bg-dark-custom {
+    background-color: #222;
+}
 .footer{
     border-top: 5px solid black;
-    background-color: #222;
     color:white;
     padding: 10px;
 }
@@ -63,9 +65,12 @@ body{
 .pointer:hover{
     color: #0056b3;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 960px){
     .page{
         padding: 10px;
+    }
+    .logolist-container {
+        display: none;
     }
 }
 .carousel img{

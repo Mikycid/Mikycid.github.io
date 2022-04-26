@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import pythonlogo from '../imgs/python.png';
 import reactlogo from'../imgs/react.png';
 import htmllogo from '../imgs/html.png';
-import csslogo from '../imgs/css.png';
 import linuxlogo from '../imgs/linux.png';
 import djangologo from '../imgs/django.png';
 import github from '../imgs/github.png'
@@ -19,7 +18,7 @@ class MainPage extends Component {
             <div className="page">
                 
                 <div className="row">
-                    <div className="col col-sm-12 col-md-4">
+                    <div className="col col-sm-12 col-md-6 col-lg-4 logolist-container">
                         <ul className="logolist">
                             
                             <li><img src={pythonlogo} alt="logo python"/></li>
@@ -34,7 +33,7 @@ class MainPage extends Component {
                         
                     </div>
                     {this.props.lang === "fr" ? 
-                    <div className="col col-sm-12 col-md-4">
+                    <div className="col col-sm-12 col-md-6 col-lg-4">
                         <p>
                             Développeur autodidacte, j'ai une bonne maîtrise sur la création de sites web statiques et dynamiques, en data science et en web scraping.<br/>
                             <br/>Je suis actuellement en formation de développeur web et web mobile chez ESECAD avec pour objectif d'obtenir un titre professionel de niveau RNCP 4.<br/>
@@ -44,7 +43,7 @@ class MainPage extends Component {
                             <br/>Je cherche toujours à m'améliorer et à apprendre de nouvelles choses, je me tiens à jour sur l'actualité du numérique, grâce à une veille technologique régulière.<br/>
                             <br/>Pour toutes demandes n'hésitez pas à me <button className="btn btn-link btn-text" onClick={()=>this.props.switchTab('con')}>contacter</button>.
                         </p>
-                    </div> : <div className="col col-sm-12 col-md-4">
+                    </div> : <div className="col col-sm-12 col-md-6 col-lg-4">
                         <p>
                             Self-taught developer, I have a good command of the creation of static and dynamic websites, in data science and web scraping.<br/>
                             <br/>I am currently studying web and mobile web development with ESECAD, a french school, and I hope to graduate to a RNCP lvl III by 2023.<br/>
@@ -56,7 +55,7 @@ class MainPage extends Component {
                         </p>
                     </div>}
                     {this.props.lang === "fr" ?
-                    <div className="col col-sm-12 col-md-4">
+                    <div className="col col-sm-12 col-md-6 col-lg-4">
                         <div>
                             <h5 className="card-title">Qui suis-je ?</h5>
                             <p>
@@ -74,7 +73,7 @@ class MainPage extends Component {
                         </div>
 
                         
-                    </div> : <div className="col col-sm-12 col-md-4">
+                    </div> : <div className="col col-sm-12 col-md-6 col-lg-4">
                             <div>
                                 <h5 className = "card-title"> Who am I? </h5>
                                 <p>
