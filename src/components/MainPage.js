@@ -5,6 +5,7 @@ import htmllogo from '../imgs/html.png';
 import linuxlogo from '../imgs/linux.png';
 import djangologo from '../imgs/django.png';
 import github from '../imgs/github.png'
+import '../css/logolist.css';
 
 class MainPage extends Component {
     count_years(){
@@ -36,22 +37,22 @@ class MainPage extends Component {
                     <div className="col-sm-12 col-lg-4">
                         <h4>Présentation</h4>
                         <p>
-                            Développeur autodidacte, j'ai une bonne maîtrise sur la création de sites web statiques et dynamiques, en data science et en web scraping.<br/>
-                            <br/>Je suis actuellement en formation de développeur web et web mobile chez ESECAD avec pour objectif d'obtenir un titre professionel de niveau RNCP 4.<br/>
-                            Je cherche un stage dans ce secteur pour le mois de mai 2022 dans le but de compléter cette formation.<br/>
+                            Développeur autodidacte, j'ai une bonne maîtrise en création de sites web, d'applications ainsi que sur un système linux débian.<br/>
+                            <br/>Je suis actuellement en formation de développeur web et web mobile chez ESECAD avec pour objectif d'obtenir un titre professionel de niveau RNCP 5 (bac + 2).<br/>
+                            <br/>Je cherche actuellement un stage dans ce secteur dans le but de compléter cette formation, avec pour objectif de continuer en alternance ensuite.<br/>
                             <br/>J'ai commencé très jeune à coder, ça a toujours été une passion pour moi. Résoudre des problèmes est dans ma nature.<br/>
                             <br/>Toujours à l'écoute, je prend en compte l'avis des personnes avec ou pour qui je travaille, tout en restant performant.<br/>
                             <br/>Je cherche toujours à m'améliorer et à apprendre de nouvelles choses, je me tiens à jour sur l'actualité du numérique, grâce à une veille technologique régulière.<br/>
-                            <br/>Pour toutes demandes n'hésitez pas à me <button className="btn btn-link btn-text" onClick={()=>this.props.switchTab('con')}>contacter</button>.
+                            <br/>Pour toutes demandes n'hésitez pas à me <a href="#" onClick={()=>this.props.switchTab('con')}>contacter</a>.
                         </p>
                     </div>
                      : 
                     <div className="col-sm-12 col-lg-4">
                         <h4>About me</h4>
                         <p>
-                            Self-taught developer, I have a good command of the creation of static and dynamic websites, in data science and web scraping.<br/>
-                            <br/>I am currently studying web and mobile web development with ESECAD, a french school, and I hope to graduate to a RNCP lvl III by 2023.<br/>
-                            I am looking for an internship for may 2022 to complete this training.<br/>
+                            Self-taught developer, I have a nice knowledge in the creation of websites, applications and also in a debian based linux system.<br/>
+                            <br/>I am currently studying web and mobile web development with ESECAD, a french school, and I hope to graduate to a RNCP V (bac + 2) by 2023.<br/>
+                            <br/>I am currently looking for an internship to complete this training, and my aim is to keep learning in sandwich course after.<br/>
                             <br/> I started coding very young, it has always been a passion for me. Solving problems is in my nature. <br/>
                             <br/> Always attentive, I take into account the preferences of the people I work with or for, and still remain efficient.<br/>
                             <br/> I love learning new things, I'm willing to get some opportunities to extend my IT knowledge in general. I'm up to work for web development, software development or as a tester.<br/>

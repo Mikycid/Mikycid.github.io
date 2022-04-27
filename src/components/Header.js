@@ -10,7 +10,7 @@ export class Header extends Component {
         <header>
             
             {this.props.lang === "fr" ?
-                <nav className='navbar navbar-expand-lg navbar-light bg-dark-custom text-white'>
+                <nav className='navbar navbar-expand-lg navbar-dark bg-dark-custom text-white'>
                 <a onClick={() => this.props.switchTab('main')} className="navbar-brand" href="#">Accueil</a>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,28 +18,29 @@ export class Header extends Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li onClick={() => this.props.switchTab('exp')} className="nav-item"><a className="nav-link" href="#page">Expériences</a></li>
-                            <li onClick={() => this.props.switchTab('cpm')} className="nav-item"><a className="nav-link" href="#page">Compétences</a></li>
-                            <li onClick={() => this.props.switchTab('con')} className="nav-item"><a className="nav-link" href="#page">Contact</a></li>
+                            <li onClick={() => this.props.switchTab('exp')} className="nav-item"><a className="nav-link" href="#">Expériences</a></li>
+                            <li onClick={() => this.props.switchTab('cpm')} className="nav-item"><a className="nav-link" href="#">Compétences</a></li>
+                            <li onClick={() => this.props.switchTab('con')} className="nav-item"><a className="nav-link" href="#">Contact</a></li>
                             <li className="nav-item nav-link">{this.props.lang === "fr" ? <span className="underline">Français</span> : <span className='pointer' onClick={() => this.props.switchLang()}>French</span>} / {this.props.lang === "en" ? <span className="underline">English</span> : <span className='pointer' onClick={() => this.props.switchLang()}>Anglais</span>}</li>
                         </ul>
                     </div>
                 </nav>
                  : 
-                <nav className="navbar navbar-expand-lg navbar-light bg-light nav-pills">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark-custom text-white">
                     <a onClick={() => this.props.switchTab('main')} className="navbar-brand" href="#">Home</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <li onClick={() => this.props.switchTab('exp')} className="nav-item"><a className="nav-link" href="#page">Experiences</a></li>
-                            <li onClick={() => this.props.switchTab('cpm')} className="nav-item"><a className="nav-link" href="#page">Skills</a></li>
-                            <li onClick={() => this.props.switchTab('con')} className="nav-item"><a className="nav-link" href="#page">Contact</a></li>
+                            <li onClick={() => this.props.switchTab('exp')} className="nav-item"><a className="nav-link" href="#">Experiences</a></li>
+                            <li onClick={() => this.props.switchTab('cpm')} className="nav-item"><a className="nav-link" href="#">Skills</a></li>
+                            <li onClick={() => this.props.switchTab('con')} className="nav-item"><a className="nav-link" href="#">Contact</a></li>
+                            <li className="nav-item nav-link">{this.props.lang === "fr" ? <span className="underline">Français</span> : <span className='pointer' onClick={() => this.props.switchLang()}>French</span>} / {this.props.lang === "en" ? <span className="underline">English</span> : <span className='pointer' onClick={() => this.props.switchLang()}>Anglais</span>}</li>
+                
                         </ul>
                     </div>
-                    <li className="nav-item nav-link">{this.props.lang === "fr" ? <span className="underline">Français</span> : <span className='pointer' onClick={() => this.props.switchLang()}>French</span>} / {this.props.lang === "en" ? <span className="underline">English</span> : <span className='pointer' onClick={() => this.props.switchLang()}>Anglais</span>}</li>
-                </nav>
+                   </nav>
             }
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">

@@ -1,0 +1,7 @@
+@media screen and (max-width:480px){
+    .title-sm{
+        border-right: none !important;
+        border-left: 2px solid #222;
+        padding: 0.5em;
+    }
+}
