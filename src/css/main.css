@@ -7,9 +7,6 @@ body{
 .list-none{
     list-style:none;
 }
-.text-center{
-    text-align: center !important;
-}
 .logolist{
     list-style: none;
     display:flex;
@@ -18,7 +15,7 @@ body{
     align-items: center;
     animation-delay:0.3s; -moz-animation-delay:0.3s; -webkit-animation-delay:0.3s;
 }
-.text-white a, .text-white span{
+.text-white a, .text-white span, .text-white li{
     color: #ccc !important;
     cursor : pointer;
 }
@@ -41,19 +38,14 @@ body{
 .bg-dark-custom {
     background-color: #222;
 }
-.footer{
-    border-top: 5px solid black;
-    color:white;
-    padding: 10px;
-}
+
 .btn-text{
     padding:0;
     margin:0;
     vertical-align: baseline !important;
 }
-.page{
+main {
     background-color: #EEE;
-    padding:15px;
     margin-bottom: 0;
 }
 .underline{
@@ -66,9 +58,6 @@ body{
     color: #0056b3;
 }
 @media screen and (max-width: 960px){
-    .page{
-        padding: 10px;
-    }
     .logolist-container {
         display: none;
     }

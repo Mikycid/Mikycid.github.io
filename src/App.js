@@ -30,7 +30,7 @@ class App extends Component {
   }
   render(){
     return(
-    <div className="container container-fluid d-flex flex-column text-justify">
+    <div className="container-fluid container-lg p-0 text-justify">
           <Header switchTab={(tab)=>this.switchTab(tab)} lang={this.state.lang} switchLang={()=>this.switchLang()}/>
       
         {this.state.tab === 'main' ?

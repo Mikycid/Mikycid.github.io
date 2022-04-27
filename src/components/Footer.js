@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../css/footer.css";
 
 export class Footer extends Component {
   render() {
@@ -6,43 +7,36 @@ export class Footer extends Component {
         <footer className="footer bg-dark-custom">
         {this.props.lang === "fr" ?
         <div className="row">
-          <div className="col-sm">
-            <ul className="list-none text-center">
+            <ul className="col-sm-12 col-lg-6 p-0 list-none text-center">
               <li style={{fontSize:22}}><strong>Liens</strong></li>
               <br/>
               <li><i className="fa fa-linkedin-square"></i>&nbsp;<a href="https://www.linkedin.com/in/mike-le-pavec-89017a1b8">Mon LinkedIn</a></li>
               <li><i className="fa fa-github-square"></i>&nbsp;<a href="https://www.github.com/Mikycid">Mon github</a></li>
             </ul>
-          </div>
-          <div className="col-sm">
-            <ul className="list-none text-center">
+            <ul className="col-sm-12 col-lg-6 p-0 list-none text-center">
               <li style={{fontSize:22}}><strong>Navigation</strong></li>
               <br/>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('main')}>Accueil</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('exp')}>Expériences</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('cpm')}>Compétences</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('con')}>Contact</button></li>
+              <li><a href="#" onClick={()=>this.switchTab('main')}>Accueil</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('exp')}>Expériences</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('cpm')}>Compétences</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('con')}>Contact</a></li>
             </ul>
-          </div>
-        </div> : <div className="row">
-          <div className="col-sm">
-            <ul className="list-none text-center">
+        </div> : 
+        <div className="row">
+            <ul className="col-sm-12 col-lg-6 p-0 list-none text-center">
               <li style={{fontSize:22}}><strong>Links</strong></li>
               <br/>
               <li><i className="fa fa-linkedin-square"></i>&nbsp;<a href="https://www.linkedin.com/in/mike-le-pavec-89017a1b8">My LinkedIn</a></li>
               <li><i className="fa fa-github-square"></i>&nbsp;<a href="https://www.github.com/Mikycid">My github</a></li>
             </ul>
-          </div>
-          <div className="col-sm">
-            <ul className="list-none text-center">
+            <ul className="col-sm-12 col-lg-6 p-0 list-none text-center">
               <li style={{fontSize:22}}><strong>Navigation</strong></li>
               <br/>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('main')}>Home</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('exp')}>Experiences</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('cpm')}>Skills</button></li>
-              <li><button href="#" className="btn btn-link footer-btn" onClick={()=>this.switchTab('con')}>Contact</button></li>
+              <li><a href="#" onClick={()=>this.switchTab('main')}>Home</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('exp')}>Experiences</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('cpm')}>Skills</a></li>
+              <li><a href="#" onClick={()=>this.switchTab('con')}>Contact</a></li>
             </ul>
-          </div>
         </div> }
       </footer>
     )

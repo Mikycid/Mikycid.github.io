@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Experiences extends Component {
     render() {
         return (
-            <div className="page">
+            <main className='p3'>
                 {this.props.lang === "fr" ?
                 <div>
                     <h2>Mes expériences</h2>
@@ -19,7 +19,7 @@ class Experiences extends Component {
                     this is why I am now training as a web and mobile web developer with ESECAD.</p>
                 </div>}
                 
-            </div>
+            </main>
         );
     }
 }
