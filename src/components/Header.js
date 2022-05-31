@@ -53,7 +53,7 @@ export class Header extends Component {
                         <div className="carousel-item active">
                             <img src={banner} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Développeur web</h5>
+                                <h5>Développeur</h5>
                                 <p>Un métier, une passion.</p>
                             </div>
                         </div>
@@ -75,7 +75,7 @@ export class Header extends Component {
                         <div className="carousel-item active">
                             <img src={banner} className="d-block w-100" alt="..." />
                             <div className="carousel-caption d-none d-md-block">
-                                <h5>Web developer</h5>
+                                <h5>Developer</h5>
                                 <p>A job, a passion</p>
                             </div>
                         </div>

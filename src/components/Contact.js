@@ -13,7 +13,7 @@ class Contact extends Component {
                     <ul className="list-none">
                         <li><i className="fas fa-phone"></i>&nbsp;06.50.22.81.66</li>
                         <li><i className="fas fa-envelope"></i>&nbsp;<a href="mailto:lepavecmike@hotmail.fr">lepavecmike@hotmail.fr</a></li>
-                        <li><i class="fa fa-inbox" aria-hidden="true"></i>&nbsp;10 avenue Henri Matisse<br/>06200, Nice</li>
+                        <li><i class="fa fa-inbox" aria-hidden="true"></i>&nbsp;31B rue Miramar<br/>31200, Toulouse</li>
                     </ul>
                 </address>
             </main>

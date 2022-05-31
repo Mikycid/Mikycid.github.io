@@ -86,7 +86,7 @@ class Competences extends Component {
                                         <div className='col-md-3 border-right border-dark title-sm font-weight-bold'>Des APIs</div>
                                         <div className="col-md-9">
                                             <ul className='list-group list-group-flush'>
-                                                <li className='list-group-item font-italic'>REST, CRUD</li>
+                                                <li className='list-group-item font-italic'>REST, CRUD, XML-RPC</li>
                                                 <li className='list-group-item'>Je sais créer et utiliser des apis orientées fichier ou objet.</li>
                                             </ul>
                                         </div>
@@ -134,7 +134,7 @@ class Competences extends Component {
                                         <div className='col-md-3 border-right border-dark title-sm font-weight-bold'>APIs</div>
                                         <div className="col-md-9">
                                             <ul className='list-group list-group-flush'>
-                                                <li className='list-group-item font-italic'>REST, CRUD</li>
+                                                <li className='list-group-item font-italic'>REST, CRUD, XML-RPC</li>
                                                 <li className='list-group-item'>I know how to create and manipulate APIs in a set of architectural constraints.</li>
                                             </ul>
                                         </div>
@@ -153,7 +153,7 @@ class Competences extends Component {
                                 </li>
                                 <li className='list-group-item'>
                                     <div className='row'>
-                                        <div className='col-md-3 border-right border-dark title-sm font-weight-bold'>Bases de données</div>
+                                        <div className='col-md-3 border-right border-dark title-sm font-weight-bold'>Databases</div>
                                         <div className="col-md-9">
                                             <ul className='list-group list-group-flush'>
                                                 <li className='list-group-item font-italic'>SQL, NoSQL (MongoDB for example)</li>
