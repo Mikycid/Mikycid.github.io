@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db86c756432aeacdb8bc5438d18d1b00",
+    "revision": "2df015e1431f867bcf1043a21b925641",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.1cace5d8.chunk.css"
   },
   {
-    "revision": "2b27402108abe6f2c6e0",
+    "revision": "6ae2dcf77d92de490de4",
     "url": "/portfolio/static/css/main.037892c8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.6f88afb1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2b27402108abe6f2c6e0",
-    "url": "/portfolio/static/js/main.652c9d7b.chunk.js"
+    "revision": "6ae2dcf77d92de490de4",
+    "url": "/portfolio/static/js/main.5b0cdab7.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -40,28 +40,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/banner.177cf6d4.jpg"
   },
   {
-    "revision": "1d528e2cb5fbc29ad16c74e5d883c371",
-    "url": "/portfolio/static/media/django.1d528e2c.png"
-  },
-  {
     "revision": "3e54ed15b9cd877c5223f5ecf64579df",
     "url": "/portfolio/static/media/github.3e54ed15.png"
-  },
-  {
-    "revision": "3bfabbd4884b9541e1107481b29b2f86",
-    "url": "/portfolio/static/media/html.3bfabbd4.png"
   },
   {
     "revision": "c9ceb693d63e6656a8ebfd237583f46b",
     "url": "/portfolio/static/media/linux.c9ceb693.png"
   },
   {
+    "revision": "7658aa066d35802fc9b58e37ad9eacdb",
+    "url": "/portfolio/static/media/logo_cpp.7658aa06.png"
+  },
+  {
+    "revision": "7d3ce6e31a624598cebac7c2179aeb6c",
+    "url": "/portfolio/static/media/logo_shell.7d3ce6e3.png"
+  },
+  {
     "revision": "0428753efd631e18a275b4407571eed2",
     "url": "/portfolio/static/media/photo_cv.0428753e.png"
   },
   {
-    "revision": "3d758579b42e6d0b0109a08882a56c37",
-    "url": "/portfolio/static/media/python.3d758579.png"
+    "revision": "34922a4ce3089be04ec5b64bb4a966d2",
+    "url": "/portfolio/static/media/python.34922a4c.png"
   },
   {
     "revision": "7c0fdc490914ad5e54763db4ef955066",
